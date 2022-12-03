@@ -1,8 +1,8 @@
-<h1>Arithmetic operations:</h1>
+<h1>Operaciones aritméticas:</h1>
 <ul>
-	<li><a href="/additions">Additions</a></li>
-	<li><a href="/additions-without-reagruping">Additions without reagruping</a></li>
-	<li><a href="/subtractions">Subtractions</a></li>
-	<li><a href="/subtractions-without-reagruping">Subtractions without reagruping</a></li>
-	<li><a href="/chained-additions-and-subtractions">Chained additions and subtractions</a></li>
+	<li><a href="/additions">Sumas</a></li>
+	<li><a href="/additions-without-reagruping">Sumas sin llevar</a></li>
+	<li><a href="/subtractions">Restas</a></li>
+	<li><a href="/subtractions-without-reagruping">Restas sin llevar</a></li>
+	<li><a href="/chained-additions-and-subtractions">Sumas y restas encadenadas</a></li>
 </ul>
