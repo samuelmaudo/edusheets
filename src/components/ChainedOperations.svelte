@@ -35,10 +35,7 @@
 
 <style>
 	.board {
-		font-family: 'Sacramento', cursive;
 		font-weight: bold;
-		line-height: 2em;
-		text-align: center;
 		width: 100%;
 	}
 	.row {
@@ -74,5 +71,6 @@
 		background-color: #e7e7e7;
 		border: 0.2em solid #555555;
 		border-radius: 0.6em;
+		font-family: 'Sacramento', cursive;
 	}
 </style>

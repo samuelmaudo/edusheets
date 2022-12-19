@@ -16,7 +16,7 @@
 <style>
 	.page {
 		background: #fff;
-		box-shadow: 0 3px 6px rgba(75, 75, 75, 0.4);
+		box-shadow: 0 3px 6px rgba(25, 25, 25, 0.25);
 		margin: 1cm auto;
 		outline: 0;
 		overflow: hidden;
