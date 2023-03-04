@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Size } from '$lib/display/types';
 
-	export let size: Size;
+	export let size = Size.A4;
 </script>
 
 <div

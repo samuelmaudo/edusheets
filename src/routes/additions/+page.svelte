@@ -1,6 +1,9 @@
 <script lang="ts">
 	import ColumnarOperations from '$components/ColumnarOperations.svelte';
+	import PageOutline from '$components/PageOutline.svelte';
 	import { additions } from '$lib/arithmetic/functions';
 </script>
 
-<ColumnarOperations operations={additions(24, 2, 4)} />
+<PageOutline>
+	<ColumnarOperations operations={additions(36, 1, 2)} />
+</PageOutline>

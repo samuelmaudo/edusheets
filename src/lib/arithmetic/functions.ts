@@ -73,6 +73,46 @@ export const subtractionsWithoutReagruping = (limit: number, digits = 2): Operat
 	return operations;
 };
 
+export const multiplications = (limit: number, multiplier_digits = 2, multiplicand_digits = 1): Operations => {
+	const multiplier_maximum = 10 ** multiplier_digits - 1;
+	const multiplier_minimum = 7 * 10 ** (multiplier_digits - 2);
+	const multiplicand_maximum = 10 ** multiplicand_digits - 1;
+	const multiplicand_minimum = 7 * 10 ** (multiplicand_digits - 2);
+
+	const operations: Operations = [];
+
+	while (operations.length < limit) {
+		const multiplier = integerBetween(multiplier_minimum, multiplier_maximum);
+		const multiplicand = integerBetween(multiplicand_maximum, multiplicand_minimum);
+		operations.push({
+			operands: [multiplier, multiplicand],
+			operator: Operator.Multiplication
+		});
+	}
+
+	return operations;
+};
+
+export const divisions = (limit: number, dividend_digits = 2, divisor_digits = 1): Operations => {
+	const dividend_maximum = 10 ** dividend_digits - 1;
+	const dividend_minimum = 7 * 10 ** (dividend_digits - 2);
+	const divisor_maximum = 10 ** divisor_digits - 1;
+	const divisor_minimum = 7 * 10 ** (divisor_digits - 2);
+
+	const operations: Operations = [];
+
+	while (operations.length < limit) {
+		const dividend = integerBetween(dividend_minimum, dividend_maximum);
+		const divisor = integerBetween(divisor_maximum, divisor_minimum);
+		operations.push({
+			operands: [dividend, divisor],
+			operator: Operator.Division
+		});
+	}
+
+	return operations;
+};
+
 export const chainedAdditionsAndSubtractions = (limit: number, digits = 2): ChainedOperations => {
 	const maximum = 10 ** digits - 1;
 	const minimum = 9 * 10 ** (digits - 2);

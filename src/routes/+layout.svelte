@@ -1,7 +1,5 @@
 <script>
 	import '../app.css';
-	import PageOutline from '$components/PageOutline.svelte';
-	import { Size } from '$lib/display/types';
 	import AppHeader from '$components/AppHeader.svelte';
 	import AppSidebar from '$components/AppSidebar.svelte';
 </script>
@@ -12,9 +10,7 @@
 	</header>
 	<div class="app-body">
 		<div class="app-content">
-			<PageOutline size={Size.A4}>
-				<slot />
-			</PageOutline>
+			<slot />
 		</div>
 		<aside class="app-sidebar">
 			<AppSidebar></AppSidebar>

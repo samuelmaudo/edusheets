@@ -9,6 +9,8 @@
         <li><Item url="/additions-without-reagruping">Sumas sin llevar</Item></li>
         <li><Item url="/subtractions">Restas</Item></li>
         <li><Item url="/subtractions-without-reagruping">Restas sin llevar</Item></li>
+        <li><Item url="/multiplications">Multiplicaciones</Item></li>
+        <li><Item url="/divisions">Divisiones</Item></li>
         <li><Item url="/chained-additions-and-subtractions">Sumas y restas encadenadas</Item></li>
     </ul>
 </nav>
